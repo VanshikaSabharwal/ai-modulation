@@ -75,13 +75,6 @@ source venv/bin/activate
 venv\Scripts\activate
 ```
 
-3. For Windows (PowerShell)
-``bash
-venv\Scripts\Activate.ps1
-```
-
-
-
 ### Install Dependencies
 
 ```bash

@@ -24,7 +24,7 @@ with gr.Blocks(title="AI Content Moderation Suite") as app:
         spam_button.click(spam_interface, inputs=spam_input, outputs=spam_output)
     
     with gr.Tab("Fact Checking"):
-        gr.Markdown("### ✅ Verify if a claim is true or false.")
+        gr.Markdown("### Verify if a claim is true or false.")
         claim_input = gr.Textbox(label="Claim", placeholder="Enter a claim...")
         evidence_input = gr.Textbox(label="Evidence", placeholder="Enter supporting evidence...")
         fact_output = gr.Textbox(label="Fact Check Result", interactive=False)

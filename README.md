@@ -38,6 +38,49 @@ This project is designed to help automate content moderation, ensuring reliabili
 git clone https://github.com/VanshikaSabharwal/plugins.git
 cd ai
 ```
+### Install venv
+1. For Ubuntu/Debian
+
+```bash
+sudo apt update
+sudo apt install python3-venv
+```
+2. For Mac
+```bash
+python3 -m ensurepip --default-pip
+
+```
+
+3. For Windows
+
+venv is included with Python 3, so no extra installation is needed.
+
+### Create a Virtual Environment
+Navigate to your project directory and run:
+```bash
+python3 -m venv venv
+```
+This will create a venv folder in your project.
+
+### Activate the Virtual Environment
+
+
+1. For Linux/macOS
+```bash
+source venv/bin/activate
+```
+
+2. For Windows (Command Prompt)
+```bash
+venv\Scripts\activate
+```
+
+3. For Windows (PowerShell)
+``bash
+venv\Scripts\Activate.ps1
+```
+
+
 
 ### Install Dependencies
 
